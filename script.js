@@ -1,9 +1,9 @@
 //your JS code here. If required.
 
-// get the input field 
+// Get the input field
 const input = document.getElementById("fname");
 
-// run when the input loses focus 
-input.addEventListener("blur", function() {
-	input.value = input.value.toUppercase();
+// Run when input loses focus
+ input.addEventListener("blur", function () {
+  input.value = input.value.toUpperCase();
 });
